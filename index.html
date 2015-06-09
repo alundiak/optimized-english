@@ -6,28 +6,18 @@
     <title>Optimized English</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!-- 
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    -->
     <script src="javascripts/main.js"></script>
     
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <style type="text/css">
-    .demo .wrapper{
-      width: 850px
-    }
-    .demo section {
-      height: auto !important;
-      width: 790px;
-    }
-
-    .demo footer {
-      
-      margin-left: -680px;
-    }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="stylesheets/oe.css">
   </head>
   <body class="demo">
 
@@ -62,8 +52,12 @@
         </h3>
 
         <div class="">
-            <textarea class="inputText" rows="10" cols="110" autofocus>This text works fine, but I decided to optimize it my stripping useless elements.</textarea>
-            <div class="optimizedText"></div>  
+            <button class="button optimize-btn"><strong>Compress English</strong></button>
+            <textarea class="input-text" rows="10" cols="110">Edit the Expression a Text to see matches. Roll over a matches or the expression for details. Undo mistakes with cmd-z. Save & Share expressions with friends or the Community. A full Reference & Help is available in the Library, or watch the video Tutorial.</textarea>
+            <strong>Length (input): </strong><span class="input-text-length"></span>
+            <h4>Here will be optimized text:</h4>
+            <div class="optimized-text"></div>  
+            <strong>Length (optimized): </strong><span class="optimized-text-length"></span>
         </div>  
 
       </section>
