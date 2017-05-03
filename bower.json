@@ -1,0 +1,20 @@
+{
+  "name": "optimized-english",
+  "description": "Experiment to optimize English language by minimization of words and grammar. Expected to be built on regexp and string replacing.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/alundiak/optimized-english",
+  "authors": [
+    "Andrii Lundiak <landike@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

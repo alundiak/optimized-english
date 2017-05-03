@@ -1,0 +1,1 @@
+This text works fine, but I decided to optimize it my stripping useless elements.
