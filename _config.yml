@@ -1,0 +1,8 @@
+title: Optimized English
+description: Experiment to optimize English language by minimization of words and grammar. Expected to be built on regexp and string replacing.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-time-machine
+
+gems:
+  - jekyll-mentions
